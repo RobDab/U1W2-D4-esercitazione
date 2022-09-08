@@ -1,0 +1,58 @@
+/* font-family: 'Indie Flower', cursive; */
+
+.lavagna {
+    background: rgb(65,65,65);
+    background: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(117,117,117,1) 13%, rgba(105,105,105,1) 40%, rgba(89,89,89,1) 63%, rgba(92,91,91,1) 84%, rgba(65,65,65,1) 100%);
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.postit {
+    height:0;
+    width:20%;
+    padding-bottom:20%;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
