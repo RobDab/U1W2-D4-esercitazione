@@ -4,20 +4,82 @@
     background: rgb(65,65,65);
     background: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(117,117,117,1) 13%, rgba(105,105,105,1) 40%, rgba(89,89,89,1) 63%, rgba(92,91,91,1) 84%, rgba(65,65,65,1) 100%);
     width: 100%;
-    padding: 5%;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
     
 }
 
-.postit {
-    height:0;
-    width:20%;
-    padding-bottom:20%;
-    background-color: red;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.lavagna h2 {
+    font-size: 2em;
 }
+
+.lavagna p {
+    font-size: 1.5em;
+}
+
+.postit_yellow ,
+.postit_green ,
+.postit_blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+    
+}
+
+
+.postit_yellow {
+    border-radius: 0% 100% 0% 100% / 100% 8% 92% 0% ;
+    background: rgb(255,243,171);
+    background: linear-gradient(29deg, rgba(255,243,171,1) 0%, rgba(255,245,166,1) 40%, rgba(212,198,81,1) 76%, rgba(122,111,0,1) 100%);
+    transform: rotate(-10deg);
+    transition: transform 0.3s;
+}
+
+.postit_green {
+    border-radius: 0% 100% 0% 100% / 90% 0% 100% 10% ;
+    background: rgb(187,255,127);
+    background: linear-gradient(209deg, rgba(187,255,127,1) 0%, rgba(211,255,137,1) 40%, rgba(180,233,98,1) 80%, rgba(47,122,0,1) 100%);
+    transform: rotate(13deg);
+    transition: transform 0.3s;
+}
+
+.postit_blue {
+    border-radius: 0% 100% 8% 92% / 100% 0% 100% 0% ;
+    background: rgb(140,127,255);
+    background: linear-gradient(153deg, rgba(140,127,255,1) 0%, rgba(137,137,255,1) 37%, rgba(83,99,224,1) 68%, rgba(65,89,219,1) 84%, rgba(29,25,145,1) 100%);
+    transform: rotate(-10deg);
+    transition: transform 0.3s;
+}
+
+.postit_yellow:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+.postit_blue:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+.postit_green:hover {
+    transform: rotate(0);
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
 
 
 
