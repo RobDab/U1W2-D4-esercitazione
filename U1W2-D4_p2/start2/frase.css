@@ -8,3 +8,35 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+
+*{
+    box-sizing: border-box;
+}
+
+main {
+    padding: 10%;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+
+#testoAlternato {
+    width: 100%;
+    padding: 10%;
+    border: 1px solid black;
+    position: absolute;
+
+}
+
+#parola1 , 
+#parola2 ,
+#parola3 {
+    position: absolute;
+    
+}
+
+
+
+
+
+
+
